@@ -56,3 +56,4 @@ function! s:gotoline()
 endfunction
 
 autocmd BufEnter,BufRead,BufNewFile * nested call s:gotoline()
+
